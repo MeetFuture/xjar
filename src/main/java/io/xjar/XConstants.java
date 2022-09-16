@@ -20,4 +20,11 @@ public interface XConstants {
     int DEFAULT_KEYSIZE = 128;
     int DEFAULT_IVSIZE = 128;
 
+    String XJAR_KEYFILE = "--xjar.keyfile=";
+
+    String XJAR_KEY_ALGORITHM = "algorithm";
+    String XJAR_KEY_KEYSIZE = "keysize";
+    String XJAR_KEY_IVSIZE = "ivsize";
+    String XJAR_KEY_PASSWORD = "password";
+    String XJAR_KEY_HOLD = "hold";
 }
